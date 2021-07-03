@@ -1,0 +1,15 @@
+.app{
+    display:grid;
+    place-items: center;
+    height:100vh;
+    background-color: rgb(224, 224, 224);
+}
+.app_body{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top:-10px;
+    height:95vh;
+    width:90vw;
+    /* box shadow : kitna-right   kitna-bottom  kitna-dark box-ke around kitna */
+    box-shadow: -1px 4px 20px -6px rgb(0,0,0,0.75);
+}
